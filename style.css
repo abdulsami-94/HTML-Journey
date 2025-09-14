@@ -1,0 +1,21 @@
+/* Make content readable and not zoomed out */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 10px;
+  padding: 0;
+}
+
+/* Navbar links should stack on small screens */
+header nav div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+/* Make images & videos fit mobile screens */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
