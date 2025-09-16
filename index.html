@@ -12,7 +12,6 @@
 </head>
 <body>
     <h1 align="center">30-Day HTML + CSS</h1>
-    <!--Day 1 -->
 
     <header>
         <nav>
@@ -144,7 +143,8 @@
     <section id="day5">
     <h1>Day 5 : Tables</h1>
     <h3>1. College Timetable</h3>
-    <table border="1">
+    <div class="table-responsive">
+  <table border="1">
         <caption><b>FIELD PROJECT</b></caption>
         <tr>
             <th>Sr.No</th>
@@ -179,7 +179,8 @@
     </table>
 <br><br>
 <h3>2. MarksSheet</h3>
-    <table border="1">
+    <div class="table-responsive">
+        <table border="1">
         <tr>
             <th>Sr.No</th>
             <th>Subject</th>
@@ -224,9 +225,11 @@
         </tr>
 
     </table>
+    </div>
 <br><br>
     <h3>3. Pricing Table</h3>
-    <table border="1">
+    <div class="table-responsive">
+        <table border="1">
         <tr>
             <th>Plan</th>
             <th>Features</th>
@@ -247,7 +250,8 @@
             <td>Unlimited Cloud Storage</td>
             <td>$1999</td>
         </tr>
-    </table>    
+    </table>
+    </div>    
     </section>
 
     <br><hr><br>
@@ -524,8 +528,6 @@
         <label>Attachment:</label>
             <input type="file"><br><br>
         <button type="submit">Submit</button>
-
-        <br><hr><br>
     </section>
 
     <br><hr><br>
@@ -551,11 +553,17 @@
         <h1>Day 12 : iFrames</h1>
 
         <h3>1. Youtube Video</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eRsO2b3_QpM?si=VketHEzB9O9VWbt7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="iframe-responsive">
+                <iframe src="https://www.youtube.com/embed/eRsO2b3_QpM?si=VketHEzB9O9VWbt7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>    
         <h3>2.Google Maps Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283314!2d78.0395672742844!3d27.175149548765308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1757168296045!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="iframe-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283314!2d78.0395672742844!3d27.175149548765308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1757168296045!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         <h3>3. Favourite Websites</h3>
-            <iframe src="https://en.wikipedia.org/wiki/Main_Page" width="600" height="450" frameborder="0"></iframe>
+            <div class="iframe-responsive">
+                <iframe src="https://en.wikipedia.org/wiki/Main_Page" frameborder="0"></iframe>
+            </div>
     </section>
 
     <br><hr><br>
@@ -673,7 +681,8 @@
     </ul>
 
     <h3>Education</h3>
-        <table border="1" cellpadding="10">
+        <div class="table-responsive">
+            <table border="1">
         <thead>
             <tr>
                 <th>Degree</th>
@@ -695,6 +704,7 @@
             </tr>
         </tbody>
     </table>
+        </div>
 
     <h3>Experience</h3>
         <dl>
@@ -712,7 +722,8 @@
         <hr>
         <p>Here are some of my recent projects. Click on any image to learn more!</p>
         <h3>Web Development Projects</h3>
-        <table cellpadding="10">
+        <div class="table-responsive">
+            <table cellpadding="10">
             <tr>
                 <th>
                     <figure><img src="japan.jpeg" height="100" alt="E-Commerce Platform screenshot">
@@ -772,6 +783,7 @@
                 </th>
             </tr>
         </table>
+        </div>
 
         <h3>Design Work</h3>
         <details>
