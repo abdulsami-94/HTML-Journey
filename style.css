@@ -26,7 +26,7 @@ table {
 }
 /* Make content readable and not zoomed out */
 body {
-  font-family: Arial, sans-serif;
+  font-family:'Calibri', 'Segoe UI'; 
   line-height: 1.6;
   margin: 10px;
   padding: 0;
